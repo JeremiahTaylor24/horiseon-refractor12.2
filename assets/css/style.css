@@ -1,3 +1,6 @@
+
+/* I added the HTML syntax of section and article to help replace the divs */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -24,7 +27,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header div section article {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header div section article ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header div section article ul li {
     display: inline-block;
     margin-left: 25px;
 }
