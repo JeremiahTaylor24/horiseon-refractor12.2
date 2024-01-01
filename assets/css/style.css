@@ -36,11 +36,12 @@ body {
     font-size: 20px;
 }
 
-.header section article ul {
+.header article ul {
     list-style-type: none;
+    text-align: end;
 }
 
-.header section article ul li {
+.header article ul li {
     display: inline-block;
     margin-left: 25px;
 }
